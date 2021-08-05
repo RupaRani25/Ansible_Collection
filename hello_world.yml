@@ -1,1 +1,12 @@
 ---
+- hosts: localhost
+  collections:
+    - rupa1.hello1
+
+  tasks:
+    - name : Debug check
+      debug :
+        msg : "Hi there, I am here for you!!"
+        
+    - import_role:
+        name: bonjour  
