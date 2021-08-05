@@ -1,0 +1,13 @@
+---
+collections:
+  # Install a collection from Ansible Galaxy.
+  #- name : git+https://github.com/RupaRani25/ansiblehello1coll.git
+  #  version: main
+  #  type: git
+  #- name : "https://github.com/RupaRani25/ansiblehello1coll/blob/f3ada5d06bbbdbc0ea8eaccd85392be18bd2312a/pankhuri1-hello1-1.0.0.tar"
+  - name : rupa1.hello1
+    source : https://github.com/RupaRani25/ansiblehello1coll/blob/f3ada5d06bbbdbc0ea8eaccd85392be18bd2312a/pankhuri1-hello1-1.0.0.tar
+    version : 1.0.0
+  #- name : git@github.com:RupaRani25/ansiblehello1coll.git
+  #  version: main
+  #  type: git
