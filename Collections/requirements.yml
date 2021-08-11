@@ -11,4 +11,4 @@ collections:
   #- name : git@github.com:RupaRani25/ansiblehello1coll.git
   #  version: main
   #  type: git
-  - name :  https://raw.githubusercontent.com/RupaRani25/Greeting_collection/main/Greeting_collection-Namaste-1.0.0.tar?raw=true
+  - name :  https://raw.githubusercontent.com/RupaRani25/Greeting_collection/blob/master/Greeting_collection-Namaste-1.0.0.tar?raw=true
