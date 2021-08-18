@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   collections:
-    - rupa1.hello1
+    - Greeting_collection.Namaste
 
   tasks:
     - name : Debug check
